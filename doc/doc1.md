@@ -1,5 +1,6 @@
 # Crossmint API Integration Guide
 
+
 ## Introduction
 
 Crossmint's battle-tested infrastructure can help you increase your sales up to 50%, for free, in 10 minutes of integration time. This guide covers the essential steps to integrate with Crossmint's API.
