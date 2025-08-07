@@ -1,29 +1,27 @@
-# crossmint API integration guide
-
-last updated: yesterday
+# Crossmint API Integration Guide
 
 ## Introduction
 
-We're excited to tell you about our amazing new API! Crossmint's API can process payments and help facilitate your payment transactions. Please use this guide to setup your integration.
+Crossmint's battle-tested infrastructure can help you increase your sales up to 50%, for free, in 10 minutes of integration time. This guide covers the essential steps to integrate with Crossmint's API.
 
-### prerequisites
+### Prerequisites
 
-You'll need:
-- An api key (get it from our dashboard).
-- Basic knowledge of Javascript or python
-- 5 minutes of your time!
+You need:
+- An API key from the Crossmint dashboard
+- Basic knowledge of JavaScript or Python
+- Five minutes of your time
 
 ## Getting Started
 
-First, we need to setup the SDK. It's super easy - just follow these steps:
+First, set up the SDK by following these steps:
 
 1. Install the package
-2. Configure your API key.
-3. Start processing payments!
+2. Configure your API key
+3. Start accepting NFT purchases
 
-### installation
+### Installation
 
-For node.js:
+For Node.js:
 ```bash
 npm install @crossmint/sdk
 ```
@@ -33,82 +31,83 @@ For Python:
 pip install crossmint
 ```
 
-## Making Your First payment Transaction
+## Making Your First NFT Purchase
 
-Now we can start accepting fiat payments! Here's how to process payments through our payment gateway:
+Here's how to enable NFT checkout through our infrastructure:
 
 ```javascript
 // Initialize the SDK
 const Crossmint = require('@crossmint/sdk');
 const client = new Crossmint('YOUR_API_KEY');
 
-// Process a payment
-const payment = await client.processPayment({
+// Enable NFT purchase
+const purchase = await client.createCheckout({
   amount: 100,
-  currency: 'USD'
+  currency: 'USD',
+  nftId: 'your-nft-id'
 });
 ```
 
-*Note: We handle all the payment processing for you!*
+Note: We handle the secure checkout process for you.
 
 ## Advanced Features
 
-### token-gating
+### Token Gating
 
-Token-Gating is a powerful feature that allows you to restrict access. We support both erc-721 & ERC-1155 tokens.
+Token Gating is a powerful feature that allows you to restrict access based on NFT ownership. Crossmint supports both ERC-721 and ERC-1155 tokens.
 
-### Smart wallet sdk
+### Smart Wallet SDK
 
-Our aa wallets provide the best UX. You can integrate them in less than ten minutes.
+The Smart Wallet SDK provides excellent user experience. You can integrate it in less than 10 minutes.
 
-### no-code Solutions
+### No Code Solutions
 
-Don't want to code? No problem! Our No-code tools include:
-- hosted claims page
-- Pay button (also known as hosted checkout)
-- embedded nft checkout
+Don't want to code? No problem! The No Code tools include:
+- Claims Page
+- Pay Button
+- Embedded NFT Checkout
 
-## API reference
+## API Reference
 
-Check out our [API docs](https://docs.crossmint.com) for more details.
+Check out the [API documentation](https://docs.crossmint.com) for more details.
 
 ### Error Handling
 
-If a payment fails, we'll return an error. Common errors include:
+If a checkout fails, Crossmint returns an error response. Common errors include:
 - Invalid API key
-- Failed payments due to insufficient funds
-- Payment settlement issues
+- Insufficient funds
+- Network issues
 
 ## Best Practices
 
-1. Always use HTTPS.
+1. Always use HTTPS
 2. Store your API keys securely
-3. Handle errors gracefully.
-4. Test in our sandbox environment first
+3. Handle errors gracefully
+4. Test in the sandbox environment first
 
-## Compliance & Security
+## Security
 
-We are a payment intermediary that facilitates transfers between buyers and sellers. Our payment processing infrastructure is SOC2 compliant and we guarantee secure payment flows.
+Crossmint's NFT checkout infrastructure is SOC2 compliant and ensures secure transactions.
 
 ### Supported Payment Methods
-- Credit/debit cards (visa, Mastercard, etc)
+- Credit/debit cards (Visa, Mastercard)
 - Bank transfers
-- Crypto payments
+- Cryptocurrency
 
 ## FAQ
 
 **Q: How do I get started?**
-A: Just sign up on our website and we'll help you set up!
+A: Sign up on the Crossmint website to receive your API credentials.
 
-**Q: What's the pricing?**
-A: We charge a small fee for payment transactions. Contact sales for details.
+**Q: What is the pricing?**
+A: Contact sales for detailed pricing information.
 
 **Q: Can I customize the checkout?**
-A: Yes! You can customize colours, logos, and more.
+A: Yes, you can customize colors, logos, and more.
 
-## conclusion
+## Conclusion
 
-That's it! You're now ready to start accepting payments with Crossmint. If you have any questions, don't hesitate to reach out to us at support@crossmint.com.
+You are now ready to start accepting NFT purchases with Crossmint. For questions, contact support@crossmint.com.
 
 ---
 © 2024 Crossmint. All rights reserved.
