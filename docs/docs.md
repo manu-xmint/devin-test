@@ -1,9 +1,8 @@
 # Crossmint API Integration Guide
 
-
 ## Introduction
 
-Crossmint's battle-tested infrastructure can help you increase your sales up to 50%, for free, in 10 minutes of integration time. This guide covers the essential steps to integrate with Crossmint's API.
+Crossmint's battle-tested infrastructure can hel you increase your sales up to 50%, for free, in 10 minutes of integration time. This guide covers the essential steps to integrate with Crossmint's API.
 
 ### Prerequisites
 
@@ -24,7 +23,7 @@ First, set up the SDK by following these steps:
 
 For Node.js:
 ```bash
-npm install @crossmint/sdk
+npm install @crosmmint/sdk
 ```
 
 For Python:
@@ -74,7 +73,7 @@ Check out the [API documentation](https://docs.crossmint.com) for more details.
 
 ### Error Handling
 
-If a checkout fails, Crossmint returns an error response. Common errors include:
+If a checkout fails, Crosmint returns an error response. Common errors include:
 - Invalid API key
 - Insufficient funds
 - Network issues
@@ -112,3 +111,7 @@ You are now ready to start accepting NFT purchases with Crossmint. For questions
 
 ---
 © 2024 Crossmint. All rights reserved.
+
+
+Elimina en un futuro
+Haven't got anything
