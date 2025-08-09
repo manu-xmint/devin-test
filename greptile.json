@@ -1,0 +1,25 @@
+{
+    "labels": [],
+    "strictness": 2,
+    "statusCheck": false,
+    "commentTypes": [
+        "syntax",
+        "logic",
+        "style"
+    ],
+    "instructions": "You must not indicate in every suggestion all the rules you have to apply. You must indicate:\n* What is wrong\n* The rule or rules that make it wrong",
+    "ignorePatterns": "!docs/**/*.md\n**/*",
+    "disabledLabels": [],
+    "excludeAuthors": [],
+    "ignoreKeywords": "",
+    "includeAuthors": [],
+    "includeSummary": false,
+    "excludeBranches": [],
+    "includeBranches": [],
+    "includeKeywords": "",
+    "triggerOnUpdates": false,
+    "includeIssuesTable": false,
+    "includeConfidenceScore": false,
+    "includeSequenceDiagram": false,
+    "shouldUpdateDescription": false
+}
