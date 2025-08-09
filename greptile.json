@@ -8,7 +8,6 @@
         "style"
     ],
     "instructions": "You must not indicate in every suggestion all the rules you have to apply. You must indicate:\n* What is wrong\n* The rule or rules that make it wrong",
-    "ignorePatterns": "!docs/**/*.md\n**/*",
     "disabledLabels": [],
     "excludeAuthors": [],
     "ignoreKeywords": "",
